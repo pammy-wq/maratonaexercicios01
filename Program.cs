@@ -15,31 +15,7 @@ Console.WriteLine("Olá, " + nomePessoa + "! " + saudacaoBase + "!");
 // Usando interpolação
 Console.WriteLine($"Olá, {nomePessoa}! Esperamos que você aproveite a visita.");
 
-
-
-/*2. Conversão de Temperatura (Celsius para Fahrenheit) 
-Objetivo: Trabalhar com cálculos matemáticos e variáveis. 
-*/
-
-Console.WriteLine("\n=== Exercício 2 ===\n");
-
-// Temperatura inicial em Celsius
-double temperaturaCelsius = 25.0;
-
-// Constantes da fórmula
-const double FATOR_CONVERSAO = 9.0 / 5.0;
-const double AJUSTE_FAHRENHEIT = 32.0;
-
-// Cálculo da conversão
-double temperaturaFahrenheit = (temperaturaCelsius * FATOR_CONVERSAO) + AJUSTE_FAHRENHEIT;
-
-// Exibição do resultado formatado
-Console.WriteLine($"{temperaturaCelsius} °C correspondem a {temperaturaFahrenheit:F1} °F");
-
-
-
-/*3. Impressão de Dados do Usuário 
-Objetivo: Concatenar e interpolar dados. 
+dsdtenar e interpolar dados. 
 */
 
 Console.WriteLine("\n=== Exercício 3 ===\n");
