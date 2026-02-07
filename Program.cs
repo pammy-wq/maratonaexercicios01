@@ -10,7 +10,7 @@ string nomePessoa = "João Silva";
 string saudacaoBase = "Bem-vindo ao nosso site";
 
 // Usando concatenação
-Console.WriteLine("Olá, " + nomePessoa + "! " + saudacaoBase + "!");
+Console.WriteLine("Olá, " + nome + "! Bem-vindo ao nosso site!");
 
 // Usando interpolação
 Console.WriteLine($"Olá, {nomePessoa}! Esperamos que você aproveite a visita.");
